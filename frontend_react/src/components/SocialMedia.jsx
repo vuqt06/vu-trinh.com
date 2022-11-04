@@ -5,13 +5,13 @@ const SocialMedia = () => {
   return (
     <div className="app__social">
         <div>
-            <SocialIcon url="https://www.linkedin.com/in/vu-trinh-umich/" />
+            <SocialIcon url="https://www.linkedin.com/in/vu-trinh-umich/" target="_blank"/>
         </div>
         <div>
-            <SocialIcon url="https://github.com/vuqt06" />
+            <SocialIcon url="https://github.com/vuqt06" target="_blank"/>
         </div>
         <div>
-            <SocialIcon url="https://www.facebook.com/vu.quang.trinh.6/" />
+            <SocialIcon url="https://www.facebook.com/vu.quang.trinh.6/" target="_blank"/>
         </div>
     </div>
   )
