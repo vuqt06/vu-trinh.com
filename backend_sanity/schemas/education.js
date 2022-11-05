@@ -1,0 +1,37 @@
+export default{
+    name:'education',
+    title:'Education',
+    type: 'document',
+    fields:[
+        {
+            name:'year',
+            title:'Year',
+            type:'string'
+        },
+        {
+            name:'university',
+            title:'University',
+            type:'string',
+        },
+        {
+            name:'degree',
+            title:'Degree',
+            type:'string',
+        },
+        {
+            name:'gpa',
+            title:'GPA',
+            type:'string',
+        },
+        {
+            name:'awards',
+            title:'Awards',
+            type:'string',
+        },
+        {
+            name:'courses',
+            title:'Courses',
+            type:'string',
+        },
+    ]
+}

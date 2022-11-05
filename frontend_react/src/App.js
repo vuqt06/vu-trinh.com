@@ -1,15 +1,16 @@
 import React from 'react';
 
-import { About, Footer, Header, Skills, Work } from './container';
+import { About, Footer, Header, Skills, Work, Education } from './container';
 import { Navbar } from './components';
 import './App.scss';
 
 const App = () => {
   return (
-    <div calssname="app">
+    <div classname="app">
         <Navbar />
         <Header />
         <About />
+        <Education />
         <Work />
         <Skills />
         <Footer />
