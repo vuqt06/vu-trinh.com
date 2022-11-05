@@ -106,8 +106,9 @@ const handleWorkFilter = (item) => {
   )
 };
 
+// export default AppWrap(Work, 'work', "app__primarybg");
 export default AppWrap(
   MotionWrap(Work, 'app__works'),
    'work',
    "app__primarybg"
-);;
+);
