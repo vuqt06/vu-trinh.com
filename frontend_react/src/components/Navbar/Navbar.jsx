@@ -22,7 +22,7 @@ const Navbar = () => {
         ))}
           <li className="app__flex p-text">
             <div />
-            <a href="../../assets/resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+            <a href="./static/media/resume.pdf" target="_blank" rel="noreferrer">Resume</a>
           </li>
       </ul>
 
@@ -43,7 +43,7 @@ const Navbar = () => {
                 </li>
               ))}
                 <li>
-                  <a href="../../assets/resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+                  <a href="./static/media/resume.pdf" target="_blank" rel="noreferrer">Resume</a>
                 </li>
               </ul>
             </motion.div>
